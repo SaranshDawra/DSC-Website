@@ -371,12 +371,27 @@ p {
     
 }
 
-/*satvik's changes*/
 .aboutDSC__text,.ourFocus__text,.whatwedo__text,.ourTeam__text{
     font-weight: normal;
     line-height: 4vh;
-    font-size: 2.5vh;
+    font-size: 2.6vh;
     
+}
+
+.first{
+  color: #2F5BE7;
+}
+
+.second{
+  color: red;
+}
+
+.third{
+  color: #FBBC12;
+}
+
+.fourth{
+  color: #189E59;
 }
 
 /*
@@ -385,6 +400,49 @@ p {
     width: 20vw;
 }
 */
+.aboutDSC__img, .ourFocus__img, .whatwedo__img{
+	height: 500px;
+	width: 500px;
+}
+
+.team__img{
+	height: 300px;
+	width: 300px;
+}
+
+.webimg,.appimg{
+	height: 250px;
+	width: 250px;
+}
+
+@media only screen and (max-width: 510px) {
+	.webimg,.appimg{
+		height: 175px!important;
+		width: 175px!important;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.aboutDSC__img, .ourFocus__img,.whatwedo__img{
+		height: 400px!important;
+		width: 400px!important;
+	}
+}
+
+@media only screen and (max-width: 433px) {
+	.aboutDSC__img, .ourFocus__img,.whatwedo__img{
+		height: 300px!important;
+		width: 300px!important;
+	}
+}
+
+@media only screen and (max-width: 339px) {
+	.aboutDSC__img, .ourFocus__img,.team__img{
+		height: 250px!important;
+		width: 250px!important;
+	}
+}
+
 .down__arrow{
     height: 15vh;
     width: 15vw;
@@ -448,7 +506,7 @@ html{
     .arrow img{
         display: none;
     }
-    .aboutDSC__text,.ourFocus__text,.whatwedo__text..outTeam__text{
+    .aboutDSC__text,.ourFocus__text,.whatwedo__text .outTeam__text{
     font-weight: normal;
     line-height: 2vh;
     font-size: 2vh;
@@ -479,11 +537,11 @@ html{
 }
 }
 
-}
-.domcontainer{
+
+/* .domcontainer{
     display: flex;
     
-}
+} */
     
 /*end s changes*/
 
